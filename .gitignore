@@ -1,0 +1,25 @@
+# Ignore .NET packages and dependencies
+packages
+node_modules
+
+# Ignore other generated files
+*.user
+*.vspscc
+*.vssscc
+*/Thumbs.db
+
+# Ignore visual studio cache files
+*/.vs/
+
+# Ignore npm packages
+*/node_modules/
+
+# Ignore bower packages
+*/bower_components/
+
+# Ignore temporary files from visual studio
+*/.vs/
+
+# Ignore temporary files from .net core
+*/bin/
+*/obj/
